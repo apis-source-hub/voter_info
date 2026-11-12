@@ -1,7 +1,7 @@
 # api/index.py
 # ECI Voter Search API — Vercel Deployment
 # GET /voterinfo?voterid=XXXXXXXX
-# Credit: Abhigyan
+# Credit: alam_web_master
 
 import base64
 import json
@@ -226,7 +226,7 @@ def home():
     return jsonify({
         "ok": True,
         "name": "ECI Voter Search API",
-        "credit": "Abhigyan",
+        "credit": "alam_web_master",
         "endpoints": {
             "voterinfo": "GET /voterinfo?voterid=XXXXXXXX",
             "health": "GET /health",
@@ -283,7 +283,7 @@ def voterinfo():
         "elapsed_ms": elapsed_ms,
         "parsed": parsed,
         "data": result["raw"],
-        "credit": "Abhigyan",
+        "credit": "alam_web_master",
     }), 200
 
 
