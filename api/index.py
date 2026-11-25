@@ -16,7 +16,7 @@ from cryptography.hazmat.primitives.ciphers.aead import AESGCM
 app = Flask(__name__)
 
 BASE = "https://gateway-voters.eci.gov.in"
-CAPTCHA_SOLVER_URL = "https://captcha-solver-api-beta.vercel.app/solve"
+CAPTCHA_SOLVER_URL = "https://chaptcha-murex.vercel.app/solve"
 MAX_RETRIES = 3
 
 HEADERS = {
